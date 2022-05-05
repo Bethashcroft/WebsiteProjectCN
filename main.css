@@ -209,4 +209,8 @@ td {
   .logo {
     width: 100%;
   }
+
+  .contactform {
+    width: 80%;
+  }
 }
