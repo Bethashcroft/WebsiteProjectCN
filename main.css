@@ -196,6 +196,11 @@ td {
   display: none !important;
 }
 
+a {
+  display: list-item;
+  list-style-type: none;
+}
+
 @media (max-width: 768px) {
   .navbar {
     gap: 10px;
