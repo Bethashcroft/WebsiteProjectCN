@@ -195,3 +195,18 @@ td {
 .hidden {
   display: none !important;
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .navbar > li {
+    padding: 0;
+  }
+
+  .logo {
+    width: 100%;
+  }
+}
